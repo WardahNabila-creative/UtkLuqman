@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Dow</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <audio autoplay loop>
+      <source src="blue.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+      <!-- Moving Hearts -->
+      <div class="hearts"></div>
+
+      <!-- Full-Screen Background Image -->
+      <div class="background"></div>
+
+      <!-- Side-by-Side Images -->
+      <div class="image-box">
+        <img src="image1.jpg" class="moving-image" />
+        <img src="image2.jpg" class="moving-image" />
+        <img src="image3.jpg" class="moving-image" />
+      </div>
+
+      <!-- Scrolling Quotes in the Middle -->
+      <div class="quote-box">
+        <p id="quote">Loading...</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
